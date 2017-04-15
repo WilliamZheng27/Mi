@@ -12,8 +12,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 mysqli_query($conn,'set names utf8');
-$user = $_POST["username"];
-$pwd = $_POST["password"];
+$user = $_POST["User_id"];
+$pwd = $_POST["User_pwd"];
 //$user = "16337328";
 //$pwd = "123456";
 //echo $user;

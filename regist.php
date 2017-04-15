@@ -12,9 +12,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 mysqli_query($conn,'set names utf8');
-$user = $_POST["users_id"];
-$pwd = $_POST["users_pwd"];
-$studentname = $_POST["users_name"];
+$user = $_POST["User_id"];
+$pwd = $_POST["User_pwd"];
+$studentname = $_POST["User_name"];
 //$studenttel = $_POST["modal-form-register-tel"];
 //$temp = $_POST["modal-form-register-sex"];
 //$temp2 = $_POST["modal-form-register-type"];
